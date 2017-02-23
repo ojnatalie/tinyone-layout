@@ -243,7 +243,7 @@ section {
     padding: 50px 1.2em;
 
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .c-hamburger {
@@ -251,7 +251,6 @@ section {
     width: 30px;
     height: 30px;
     padding: 0;
-    margin-right: auto;
 
     cursor: pointer;
 
@@ -263,7 +262,6 @@ section {
 
 .c-navbar__logo {
     display: flex;
-    margin: auto;
 
     font-size: 30px;
     font-weight: 600;
@@ -282,10 +280,6 @@ section {
     height: 35px;
 
     fill: #222;
-}
-
-.c-navbar__si {
-    margin-left: auto;
 }
 
 .u-icon {
