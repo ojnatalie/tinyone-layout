@@ -381,4 +381,5 @@ section {
 
 .col__icon {
     display: flex;
+    padding-top: 1.5em;
 }
