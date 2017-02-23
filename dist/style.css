@@ -260,19 +260,12 @@ section {
 
 .c-navbar__logo {
     display: flex;
-    padding-left: 60px;
     margin: auto;
 
     font-size: 30px;
     font-weight: 600;
 
     align-items: center;
-}
-
-@media (max-width: 490px) {
-    .c-navbar__logo {
-        padding-left: 30px;
-    }
 }
 
 @media (max-width: 390px) {
