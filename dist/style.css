@@ -228,6 +228,10 @@ section {
     background-color: black;
 }
 
+.arrow {
+    display: block;
+}
+
 .fa-long-arrow-down {
     position: relative;
     top: 110px;
