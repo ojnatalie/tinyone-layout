@@ -235,6 +235,12 @@ section {
     display: block;
 }
 
+.fa-long-arrow-down {
+    position: relative;
+    top: 110px;
+
+    display: block;
+}
 .c-navbar {
     display: flex;
     padding: 50px 1.2em;
