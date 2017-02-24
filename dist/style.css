@@ -432,6 +432,8 @@ section {
 
     font-size: 3.2em;
     font-weight: 800;
+    
+    color: #010101;
 }
 
 .c-section2__col__span::after {
