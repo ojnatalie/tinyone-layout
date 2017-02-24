@@ -414,6 +414,12 @@ section {
     padding-top: 1.5em;
 }
 
+@media (max-width: 615px) {
+    .col__icon {
+        padding-right: 10px;
+    }
+}
+
 .col__icon-s2 {
     display: inline-flex;
     width: 100px;
