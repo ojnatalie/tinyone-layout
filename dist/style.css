@@ -424,7 +424,9 @@ section {
 
 .c-section2__content {
     display: flex;
+    max-width: 760px;
     padding-top: 9em;
+    margin: auto;
 
     flex-wrap: wrap;
     justify-content: center;
