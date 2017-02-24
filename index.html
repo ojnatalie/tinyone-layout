@@ -41,13 +41,22 @@
             </symbol>
         </svg>
         </div>
+        <div id="myNav" class="overlay">
+          <a class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
         <header class="c-header">
             <nav class="c-navbar o-base-width">
-                <button class="c-hamburger">
+                <button class="c-hamburger" onclick="openNav()">
                 <svg class="c-hamburger__svg" viewBox="0 0 24 24">
                     <use xlink:href="#c-hamburger__svg"></use>
                 </svg>
-            </button>
+                </button>
                 <a href="#" class="c-navbar__logo"><svg class="u-icon-logo">
                     <use xlink:href="#c-logo__svg"></use>
                 </svg>tinyone</a>
@@ -151,34 +160,34 @@
                     </div>
                     <h1 class="o-section__col__h1">Basic</h1>
                     <h2 class="o-section__col__p sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
-                <span class="c-section2__col__span">Free</span>
-                <p class="o-section__col__p sm">free forever</p>
-                <a href="" class="c-btn c-btn-s2">Get free now</a>
-            </div>
-            <div class="c-section2__col">
-                <div class="col__icon-s2 u-s2-bg">
-                    <i class="fa fa-laptop fa-4x fa-s2-white"></i>
+                    <span class="c-section2__col__span">Free</span>
+                    <p class="o-section__col__p sm">free forever</p>
+                    <a href="" class="c-btn c-btn-s2">Get free now</a>
+                </div>                
+                <div class="c-section2__col">
+                    <div class="col__icon-s2 u-s2-bg">
+                        <i class="fa fa-laptop fa-4x fa-s2-white"></i>
+                    </div>
+                    <h1 class="o-section__col__h1">Standard</h1>
+                    <h2 class="o-section__col__p sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+                    <span class="c-section2__col__span">&#36;99</span>
+                    <p class="o-section__col__p sm">month</p>
+                    <a href="" class="c-btn c-btn-s2">Get free now</a>
+                </div>                
+                <div class="c-section2__col">
+                    <div class="col__icon-s2">
+                        <i class="fa fa-desktop fa-4x"></i>
+                    </div>
+                    <h1 class="o-section__col__h1">Enterprice</h1>
+                    <h2 class="o-section__col__p sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+                    <span class="c-section2__col__span">&#36;199</span>
+                    <p class="o-section__col__p sm">month</p>
+                    <a href="" class="c-btn c-btn-s2">Get free now</a>
                 </div>
-                <h1 class="o-section__col__h1">Standard</h1>
-                <h2 class="o-section__col__p sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
-                <span class="c-section2__col__span">&#36;99</span>
-                <p class="o-section__col__p sm">month</p>
-                <a href="" class="c-btn c-btn-s2">Get free now</a>
-            </div>
-            <div class="c-section2__col">
-                <div class="col__icon-s2">
-                    <i class="fa fa-desktop fa-4x"></i>
-                </div>
-                <h1 class="o-section__col__h1">Enterprice</h1>
-                <h2 class="o-section__col__p sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
-                <span class="c-section2__col__span">&#36;199</span>
-                <p class="o-section__col__p sm">month</p>
-                <a href="" class="c-btn c-btn-s2">Get free now</a>
-            </div>
             </div>
         </section>
-
-
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 
 </html>
