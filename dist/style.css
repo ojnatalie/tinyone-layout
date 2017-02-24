@@ -327,6 +327,10 @@ section {
     }
 }
 
+.c-navbar__si {
+    min-width: 100px;
+}
+
 .u-icon-logo {
     width: 35px;
     height: 35px;
