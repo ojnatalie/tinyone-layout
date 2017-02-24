@@ -231,7 +231,7 @@ section {
 
 .c-header__content {
     max-width: 500px;
-    padding: 19em 1.2em;
+    padding: 27em 1.2em;
     margin: auto;
 
     text-align: center;
@@ -241,7 +241,7 @@ section {
 
 @media (max-width: 480px) {
     .c-header__content {
-        padding: 6em 1.2em;
+        padding: 19em 1.2em;
     }
 }
 
@@ -291,14 +291,18 @@ section {
     display: block;
 }
 .c-navbar {
+    position: relative;
+    top: 50px;
+
     display: flex;
-    padding: 50px 1.2em;
 
     align-items: center;
     justify-content: space-between;
 }
 
 .c-hamburger {
+    z-index: 4;
+
     display: block;
     width: 30px;
     height: 30px;
@@ -438,7 +442,7 @@ section {
 
     font-size: 3.2em;
     font-weight: 800;
-    
+
     color: #010101;
 }
 
@@ -467,4 +471,70 @@ section {
 
 .fa-s2-white {
     color: #efefef;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    width: 0;
+    height: 100%;
+    overflow-x: hidden;
+
+    transition: .5s;
+    transition-timing-function: ease-out, cubic-bezier(.25,.1,.25,1);
+
+    background-color: rgba(0,0,0, .9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+
+    width: 100%;
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+.overlay a {
+    display: block;
+    padding: 8px;
+
+    font-size: 36px;
+
+    transition: .3s;
+    text-decoration: none;
+
+    color: #999;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #fff000;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+
+    font-size: 60px;
+
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .closebtn {
+        top: 15px;
+        right: 35px;
+
+        font-size: 40px;
+    }
 }
