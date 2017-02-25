@@ -185,6 +185,14 @@ section {
   font-size: 1.4em;
   line-height: 24px; }
 
+.u-wp {
+    padding-bottom: 0;
+}
+
+.u-pt {
+    padding: 1em 0;
+}
+
 .c-header {
   height: 100vh;
   min-height: 670px;
@@ -509,4 +517,35 @@ section {
     max-width: 28px;
 
     font-size: 4em;
+}
+
+.c-section3__content {
+    display: -webkit-flex;
+    display:    -moz-flex;
+    display:     -ms-flex;
+    display:      -o-flex;
+    display:         flex;
+
+    -ms-align-items: center;
+        align-items: center;
+    justify-content: center;
+}
+
+.col__icon-s4 {
+    flex-direction: column;
+}
+
+@media (max-width: 830px) {
+    .col__icon-s4 {
+        flex-basis: 50%;
+    }
+    .c-section4__col__si {
+        padding-bottom: 9em;
+    }
+}
+
+@media (max-width: 408px) {
+    .col__icon-s4 {
+        flex-basis: 100%;
+    }
 }
