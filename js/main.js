@@ -1,10 +1,6 @@
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
+$('.js-nav-close-btn').on('click', function () {
+    $nav.toggleClass('js-nav--opened');
+});
 
  $(function() {
      $('.arrow').on('click', function() {
