@@ -1,3 +1,5 @@
+var $nav = $(".js-nav");
+
 $('.js-nav-close-btn').on('click', function () {
     $nav.toggleClass('js-nav--opened');
 });
