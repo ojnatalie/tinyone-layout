@@ -302,54 +302,72 @@ section {
   transition: fill .6s;
   fill: #222; }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 0;
-  height: 100%;
-  overflow-x: hidden;
-  -webkit-transition: .5s;
-  transition: .5s;
-  -webkit-transition-timing-function: ease-out, cubic-bezier(0.25, 0.1, 0.25, 1);
-          transition-timing-function: ease-out, cubic-bezier(0.25, 0.1, 0.25, 1);
-  background-color: rgba(0, 0, 0, 0.9); }
+.js-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  margin-top: 30px;
-  text-align: center; }
+    display: flex;
+    width: 0;
+    height: 100%;
+    overflow-x: hidden;
 
-.overlay a {
-  display: block;
-  padding: 8px;
-  font-size: 36px;
-  -webkit-transition: .3s;
-  transition: .3s;
-  text-decoration: none;
-  color: #999; }
+    -webkit-transition: .5s;
+            transition: .5s;
+    -webkit-transition-timing-function: ease-out, cubic-bezier(.25, .1, .25, 1);
+            transition-timing-function: ease-out, cubic-bezier(.25, .1, .25, 1);
 
-.overlay a:hover,
-.overlay a:focus {
-  color: #fff000; }
+    background-color: rgba(0, 0, 0, .9);
 
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  cursor: pointer; }
+    align-items: center;
+}
+
+.js-nav--opened {
+    width: 100%;
+
+    text-align: center;
+}
+
+.js-nav a {
+    display: block;
+    padding: 8px;
+
+    font-size: 36px;
+
+    -webkit-transition: .3s;
+            transition: .3s;
+    text-decoration: none;
+
+    color: #999;
+}
+
+.js-nav a:hover,
+.js-nav a:focus {
+    color: #fff000;
+}
+
+.js-nav .js-nav-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+
+    font-size: 60px;
+
+    cursor: pointer;
+}
 
 @media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px; }
-  .overlay .closebtn {
-    top: 15px;
-    right: 35px;
-    font-size: 40px; } }
+    .js-nav a {
+        font-size: 20px;
+    }
+    .js-nav .js-nav-close-btn {
+        top: 15px;
+        right: 35px;
+
+        font-size: 40px;
+    }
+}
 
 .c-section1 {
   width: 100%;
