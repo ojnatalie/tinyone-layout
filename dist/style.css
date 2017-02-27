@@ -205,6 +205,11 @@ section {
     padding: 1em 0;
 }
 
+.max-width {
+    max-width: 500px;
+    margin: auto;
+}
+
 .c-header {
   height: 100vh;
   min-height: 670px;
@@ -557,4 +562,30 @@ section {
     .col__icon-s4 {
         flex-basis: 100%;
     }
+}
+.testimonial {
+    margin-top: 4rem;
+}
+
+.c-blockquote {
+    display: -webkit-flex;
+    display:    -moz-flex;
+    display:     -ms-flex;
+    display:      -o-flex;
+    display:         flex;
+    padding-top: 2em;
+
+    color: #999;
+}
+
+.fa-quote-left {
+    padding-right: 2em;
+}
+
+.fa-quote-right {
+    display: flex !important;
+    padding-left: 2em;
+
+    -ms-align-items: flex-end;
+        align-items: flex-end;
 }
