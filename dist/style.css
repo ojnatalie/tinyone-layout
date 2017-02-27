@@ -579,12 +579,14 @@ section {
 }
 
 .fa-quote-left {
-    padding-right: 2em;
+    padding-right: 1.5em;
+    padding-left: 10px;
 }
 
 .fa-quote-right {
     display: flex !important;
-    padding-left: 2em;
+    padding-right: 10px;
+    padding-left: 1.5em;
 
     -ms-align-items: flex-end;
         align-items: flex-end;
