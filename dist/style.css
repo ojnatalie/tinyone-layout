@@ -737,6 +737,12 @@ form textarea {
     color: rgba(255, 255, 255, .6);
 }
 
+@media (max-width: 362px) {
+    .footer__p {
+        font-size: 1.2em;
+    }
+}
+
 .c-footer__content--right .c-footer__col__font:hover {
     color: #fff000;
 }
