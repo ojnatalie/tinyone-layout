@@ -606,6 +606,7 @@ section {
 
 .c-form {
     max-width: 480px;
+    padding: 0 1em;
     margin: 50px auto;
 
     text-align: center;
