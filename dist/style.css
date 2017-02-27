@@ -210,6 +210,18 @@ section {
     margin: auto;
 }
 
+.u-aib {
+    align-items: baseline;
+}
+
+.u-font-weight-reg {
+    font-weight: 400;
+}
+
+.u-fs {
+    font-size: 2.2em;
+}
+
 .c-header {
   height: 100vh;
   min-height: 670px;
@@ -590,4 +602,48 @@ section {
 
     -ms-align-items: flex-end;
         align-items: flex-end;
+}
+
+.c-form {
+    max-width: 480px;
+    margin: 50px auto;
+
+    text-align: center;
+}
+
+.c-form input,
+.c-form textarea {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+
+    resize: none;
+
+    border: 0;
+    border: solid 2px #010101;
+    outline: 0;
+}
+
+.c-form #input-submit {
+    width: 170px;
+    margin: auto;
+    margin-top: 1.5em;
+
+    cursor: pointer;
+
+    color: #fff;
+    background: #010101;
+}
+
+form #input-submit:hover {
+    color: #010101;
+    background-color: #fff;
+}
+
+form textarea {
+    height: 200px;
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.4em;
 }
