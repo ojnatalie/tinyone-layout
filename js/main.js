@@ -4,10 +4,11 @@ $('.js-nav-close-btn').on('click', function () {
     $nav.toggleClass('js-nav--opened');
 });
 
- $(function() {
-     $('.arrow').on('click', function() {
-         $('html, body').animate({
-             scrollTop: 720
-         }, 1000);
-     });
- });
+window.addEventListener('load', function() {
+    
+document.querySelector('.js-scroll-into-view').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('.c-section1__headline').scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
