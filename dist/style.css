@@ -690,6 +690,10 @@ form textarea {
     background-color: #fff;
 }
 
+#c-submitbar__bar__btn:hover {
+    background-color: #fff000;
+}
+
 .c-footer {
     padding: 10em 0;
 
